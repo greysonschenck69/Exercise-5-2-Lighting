@@ -1,7 +1,11 @@
-[gd_scene format=3 uid="uid://cwkxohm37urjd"]
+[gd_scene load_steps=2 format=3 uid="uid://cwkxohm37urjd"]
+
+[ext_resource type="PackedScene" uid="uid://bg0is3pbfcx3h" path="res://Cabin.tscn" id="1_osbdv"]
 
 [node name="World" type="Node3D"]
 
 [node name="Marker3D" type="Marker3D" parent="."]
+
+[node name="Cabin" parent="Marker3D" instance=ExtResource("1_osbdv")]
 
 [node name="Pivot" type="Node3D" parent="."]

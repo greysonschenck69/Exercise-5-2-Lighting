@@ -10,12 +10,6 @@ config_version=5
 
 [application]
 
-config/name="Lighting"
-run/main_scene="res://World.tscn"
-config/features=PackedStringArray("4.1")
-config/icon="res://icon.png"
-
-[rendering]
-
-renderer/rendering_method="gl_compatibility"
-environment/defaults/default_environment="res://default_env.tres"
+config/name="Exercise-5-2-lighting"
+config/features=PackedStringArray("4.1", "Forward Plus")
+config/icon="res://icon.svg"
